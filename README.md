@@ -15,7 +15,7 @@ SEARCHBYNAME Kalyn Salido //searching for the student with the name Kayle Salido
 SEARCHBYID 111 //searches for the student with ID 111 in all roasters   
 DISPLAYSTATS CSC-3280 //dispaly the statistics for the roaster CSC-3280   
 DISPLAYSTATS ALL //display stats for all roasters    
-DISPLAYSTUDENTS CSC-2290 //dispaly the students in roaster CSC-2290
+DISPLAYSTUDENTS CSC-2290 //dispaly the students in roaster CSC-2290   
 DISPLAYSTUDENTS ALL //dispaly all students in the grade book   
 QUIT //terminates the program (it is always needed as a last line)
 
