@@ -6,7 +6,7 @@ It was created during my Data structures class, practicing Linked Lists.
 Download the files inside "src" and try it yourself!
 For now it needs to receive exact commands from the user.
 Examples of commands that can be used: 
-3 //number of roasters 
+3 //number of roasters    
 CSC-2290 //names of roasters
 CSC-3280 
 CSC-2100  
