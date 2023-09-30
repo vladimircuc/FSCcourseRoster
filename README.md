@@ -1,4 +1,4 @@
-# FSCcourseRoster1
+# FSCcourseRoster
 This Students Grade book uses linked lists to store students and their details 
 ordered by ID as well as add students, delete students, search students by name or ID and display the 
 students’ statistics.
