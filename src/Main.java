@@ -1,8 +1,6 @@
 //Name: Vladimir Cuc
 //ID: 1282672
 //Date: 09/20/2023
-//FSC honor code: Be honest in all situations, academic and nonacademic, and to respect the rights and the property of others. Live in a manner that brings credit to themselves and to the College.
-
 import java.util.*;
 
 public class Main {
