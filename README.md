@@ -4,10 +4,10 @@ ordered by ID as well as add students, delete students, search students by name 
 students’ statistics.
 It was created during my Data structures class, practicing Linked Lists.
 Download the files inside "src" and try it yourself!
-For now it needs to receive exact commands from the user.
-<br>Examples of commands that can be used:
-<br>3 //number of roasters<br>
-<br>CSC-2290 //names of roasters 
+For now it needs to receive exact commands from the user.  
+Examples of commands that can be used:  
+3 //number of roasters   
+CSC-2290 //names of roasters 
 <br>CSC-3280 
 <br>CSC-2100 
 ADDRECORD CSC-2290 111 Kalyn Salido 90 85 94 //adds a student in the roaster CSC-2290 with the ID 111, name Kalyn Salido and exam scores 90 85 94 
