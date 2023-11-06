@@ -20,4 +20,4 @@ DISPLAYSTUDENTS ALL //dispaly all students in the grade book
 QUIT //terminates the program (it is always needed as a last line)
 
 
-
+Best way to test this program is input the sample input and see how the program react. Look for the sample input file    
