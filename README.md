@@ -23,8 +23,17 @@ students’ statistics.
 
 ## About The Project
 
-<!-- Add short description about the project here -->
+The Java-based Student Grade Book project employs Object-Oriented Programming (OOP) principles to efficiently manage and organize student academic information. The core structure of the project revolves around creating two main classes: Student and Roster.       
 
+The Student class serves as a blueprint for individual student objects, encapsulating relevant attributes such as student ID, name, and an array to store grades. The encapsulation ensures data integrity and provides a systematic way to represent each student's academic profile.    
+
+The Roster class acts as a container for managing multiple Student objects, incorporating functionalities to add, remove, or update student records. Through encapsulation and abstraction, the Roster class enables the creation of a dynamic and scalable system to accommodate a varying number of students.   
+
+In addition to managing individual student records, the Student Grade Book project incorporates a feature that allows users to access real-time statistics for the entire roster. This functionality enhances the project's usability by providing valuable insights into the overall performance of the group.    
+
+The project achieves this by implementing methods within the Roster class that calculate and display statistical measures such as the average, highest, and lowest grades across all students. Through encapsulation and abstraction, these methods can be seamlessly invoked, providing instant access to essential information without the need for complex computations.   
+
+It was created during my Data structures class, practicing Linked Lists.  
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -44,9 +53,23 @@ mvn install
 
 ### Running
 
-<!--
-Describe how to run your program here. These should be a few very simple steps.
--->
+1. Download the files inside "src"
+2. Run the program.
+3. (Optional) - run the sample file found inside the project
+
+List of Commands: 
+The number (n) on the first line represents the number of roasters    
+The next n lines will be the names of the n roasters   
+
+ADDRECORD CSC-2290 111 Kalyn Salido 90 85 94 //adds a student in the roaster CSC-2290 with the ID 111, name Kalyn Salido and exam scores 90 85 94   
+SEARCHBYNAME Kalyn Salido //searching for the student with the name Kayle Salido in all roasters   
+SEARCHBYID 111 //searches for the student with ID 111 in all roasters   
+DISPLAYSTATS CSC-3280 //dispaly the statistics for the roaster CSC-3280   
+DISPLAYSTATS ALL //display stats for all roasters    
+DISPLAYSTUDENTS CSC-2290 //dispaly the students in roaster CSC-2290   
+DISPLAYSTUDENTS ALL //dispaly all students in the grade book   
+QUIT //terminates the program (it is always needed as a last line)
+
 
 ## Modules
 
@@ -98,25 +121,16 @@ ___
 <!-- ## Acknowledgements  -->
 
 # 
-Academic Record that uses linked lists to store students and their details ordered by ID
- as well as add students, delete students, search students by name or ID and display the 
-students’ statistics.
-It was created during my Data structures class, practicing Linked Lists.
-Download the files inside "src" and try it yourself!
+
+
+ and try it yourself!
 For now it needs to receive exact commands from the user.  
 Examples of commands that can be used:  
 3 //number of roasters   
 CSC-2290 //names of roasters   
 CSC-3280  
 CSC-2100  
-ADDRECORD CSC-2290 111 Kalyn Salido 90 85 94 //adds a student in the roaster CSC-2290 with the ID 111, name Kalyn Salido and exam scores 90 85 94   
-SEARCHBYNAME Kalyn Salido //searching for the student with the name Kayle Salido in all roasters   
-SEARCHBYID 111 //searches for the student with ID 111 in all roasters   
-DISPLAYSTATS CSC-3280 //dispaly the statistics for the roaster CSC-3280   
-DISPLAYSTATS ALL //display stats for all roasters    
-DISPLAYSTUDENTS CSC-2290 //dispaly the students in roaster CSC-2290   
-DISPLAYSTUDENTS ALL //dispaly all students in the grade book   
-QUIT //terminates the program (it is always needed as a last line)
+
 
 
 Best way to test this program is input the sample input and see how the program react. Look for the sample input file    
