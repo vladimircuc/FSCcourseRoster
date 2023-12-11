@@ -11,19 +11,16 @@ students’ statistics.
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Running](#running)
 * [Modules](#modules)
-* [Notes](#notes)
 * [Evaluation](#evaluation)
-* [Extras](#extras)
 
 ## About The Project
 
-The Java-based Student Grade Book project employs Object-Oriented Programming (OOP) principles to efficiently manage and organize student academic information. The core structure of the project revolves around creating two main classes: Student and Roster.       
+My Student Grade Book project employs Object-Oriented Programming (OOP) principles to efficiently manage and organize student academic information. The core structure of the project revolves around creating two main classes: Student and Roster.       
 
 The Student class serves as a blueprint for individual student objects, encapsulating relevant attributes such as student ID, name, and an array to store grades. The encapsulation ensures data integrity and provides a systematic way to represent each student's academic profile.    
 
@@ -33,7 +30,8 @@ In addition to managing individual student records, the Student Grade Book proje
 
 The project achieves this by implementing methods within the Roster class that calculate and display statistical measures such as the average, highest, and lowest grades across all students. Through encapsulation and abstraction, these methods can be seamlessly invoked, providing instant access to essential information without the need for complex computations.   
 
-It was created during my Data structures class, practicing Linked Lists.  
+It was created during my Data structures class, practicing Linked Lists.    
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -41,35 +39,27 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 * [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or higher
-* [Maven 3.6](https://maven.apache.org/download.cgi) or higher
 
 ### Installation
 
-1. Navigate to the `stocks` directory
-2. Clean and build the project using:
-```sh
-mvn install
-```
+1. Download the files inside "src"    
+2. Run the program.    
+3. (Optional) - run the sample file found on the Github project page  
 
-### Running
+### Running    
 
-1. Download the files inside "src"
-2. Run the program.
-3. (Optional) - run the sample file found inside the project
+List of Commands:    
+The number (n) on the first line represents the number of roasters      
+The next n lines will be the names of the n roasters     
 
-List of Commands: 
-The number (n) on the first line represents the number of roasters    
-The next n lines will be the names of the n roasters   
-
-ADDRECORD CSC-2290 111 Kalyn Salido 90 85 94 //adds a student in the roaster CSC-2290 with the ID 111, name Kalyn Salido and exam scores 90 85 94   
-SEARCHBYNAME Kalyn Salido //searching for the student with the name Kayle Salido in all roasters   
-SEARCHBYID 111 //searches for the student with ID 111 in all roasters   
-DISPLAYSTATS CSC-3280 //dispaly the statistics for the roaster CSC-3280   
-DISPLAYSTATS ALL //display stats for all roasters    
-DISPLAYSTUDENTS CSC-2290 //dispaly the students in roaster CSC-2290   
-DISPLAYSTUDENTS ALL //dispaly all students in the grade book   
-QUIT //terminates the program (it is always needed as a last line)
-
+ADDRECORD + (more information) - adds a student in a roaster   
+SEARCHBYNAME + (one name) - searching for the student with the searched name in all roasters     
+SEARCHBYID + (one ID) - searches for the student with the searched ID in all roasters   
+DISPLAYSTATS + (one course name) - dispaly the statistics for the searched roaster     
+DISPLAYSTATS ALL - display stats for all roasters      
+DISPLAYSTUDENTS + (one course name) - dispaly the students in the searched roaster     
+DISPLAYSTUDENTS ALL - dispaly all students in the grade book      
+QUIT //terminates the program (it is always needed as a last line)   
 
 ## Modules
 
@@ -77,21 +67,23 @@ QUIT //terminates the program (it is always needed as a last line)
 Describe each module in the project, what their purpose is and how they are used in your program. Try to aim for at least 100 words per module.
 -->
 
-## Design
-
-<!--
-List all the design patterns you used in your program. For every pattern, describe the following:
-- Where it is used in your application.
-- What benefit it provides in your application. Try to be specific here. For example, don't just mention a pattern improves maintainability, but explain in what way it does so.
--->
 
 ## Evaluation
+
+I believe my implementation of the Student Grade Book demonstrates a robust and stable design, with key features functioning effectively. The encapsulation of student and roster objects within the Object-Oriented Programming (OOP) paradigm contributes to the project's stability, as it promotes modular development and minimizes dependencies between different components.   
+
+Extensive testing has been conducted to ensure the correctness and reliability of the project. Unit tests have been applied to individual methods within the Student and Roster classes, verifying their functionality in isolation. Integration tests have been performed to assess how these classes interact with each other and the broader system. This comprehensive testing approach has helped identify and address any potential bugs, enhancing the overall stability of the implementation.    
+
+While the current implementation is stable and fulfills its core objectives, there is always room for improvement. If additional time were available, enhancements could be made to the user interface, introducing graphical elements and improving the overall user experience. The project could also benefit from the incorporation of a database system for more robust data storage and retrieval, enabling scalability for larger rosters and long-term data persistence.    
+
+A more extensive focus on error handling and user input validation could further fortify the project's stability. By anticipating and gracefully handling potential issues during runtime, the system could become even more resilient to unexpected scenarios.    
+
+Overall, the implemented features work harmoniously, bugs have been addressed through rigorous testing, and the project remains stable. With further development time, the user interface and data management aspects could be refined to elevate the project's overall quality and user satisfaction.   
 
 <!--
 Discuss the stability of your implementation. What works well? Are there any bugs? Is everything tested properly? Are there still features that have not been implemented? Also, if you had the time, what improvements would you make to your implementation? Are there things which you would have done completely differently? Try to aim for at least 250 words.
 -->
 
-## Extras
 
 <!--
 If you implemented any extras, you can list/mention them here.
@@ -119,18 +111,4 @@ ___
 <!-- If you want to provide some contact details, this is the place to do it -->
 
 <!-- ## Acknowledgements  -->
-
-# 
-
-
- and try it yourself!
-For now it needs to receive exact commands from the user.  
-Examples of commands that can be used:  
-3 //number of roasters   
-CSC-2290 //names of roasters   
-CSC-3280  
-CSC-2100  
-
-
-
-Best way to test this program is input the sample input and see how the program react. Look for the sample input file    
+ 
