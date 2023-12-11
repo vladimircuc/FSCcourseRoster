@@ -49,17 +49,16 @@ To get a local copy up and running follow these simple steps.
 ### Running    
 
 List of Commands:    
-The number (n) on the first line represents the number of roasters      
-The next n lines will be the names of the n roasters     
-
-ADDRECORD + (more information) - adds a student in a roaster   
-SEARCHBYNAME + (one name) - searching for the student with the searched name in all roasters     
-SEARCHBYID + (one ID) - searches for the student with the searched ID in all roasters   
-DISPLAYSTATS + (one course name) - dispaly the statistics for the searched roaster     
-DISPLAYSTATS ALL - display stats for all roasters      
-DISPLAYSTUDENTS + (one course name) - dispaly the students in the searched roaster     
-DISPLAYSTUDENTS ALL - dispaly all students in the grade book      
-QUIT //terminates the program (it is always needed as a last line)   
+- The number (n) on the first line represents the number of roasters      
+    - The next n lines will be the names of the n roasters     
+- ADDRECORD + (more information) - adds a student in a roaster   
+- SEARCHBYNAME + (one name) - searching for the student with the searched name in all roasters     
+- SEARCHBYID + (one ID) - searches for the student with the searched ID in all roasters   
+- DISPLAYSTATS + (one course name) - dispaly the statistics for the searched roaster     
+- DISPLAYSTATS ALL - display stats for all roasters      
+- DISPLAYSTUDENTS + (one course name) - dispaly the students in the searched roaster     
+- DISPLAYSTUDENTS ALL - dispaly all students in the grade book      
+- QUIT //terminates the program (it is always needed as a last line)   
 
 ## Modules
 
