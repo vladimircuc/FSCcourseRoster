@@ -15,7 +15,6 @@ students’ statistics.
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Running](#running)
-* [Modules](#modules)
 * [Evaluation](#evaluation)
 
 ## About The Project
@@ -44,7 +43,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Download the files inside "src"    
 2. Run the program.    
-3. (Optional) - run the sample file found on the Github project page  
+3. (Optional) - run the sample file 
 
 ### Running    
 
@@ -59,12 +58,6 @@ List of Commands:
 - DISPLAYSTUDENTS + (one course name) - dispaly the students in the searched roaster     
 - DISPLAYSTUDENTS ALL - dispaly all students in the grade book      
 - QUIT //terminates the program (it is always needed as a last line)   
-
-## Modules
-
-<!--
-Describe each module in the project, what their purpose is and how they are used in your program. Try to aim for at least 100 words per module.
--->
 
 
 ## Evaluation
